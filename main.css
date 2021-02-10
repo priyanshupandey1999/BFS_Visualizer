@@ -1,0 +1,120 @@
+body { 
+	height: 100%;
+	background-color: #ade5ff;
+}
+
+td {
+    border: 3px solid #2f65fa;
+    width: 40px;
+    height: 40px;
+}
+
+.key {
+	border: 3px solid #2f65fa;
+	width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.btn-space {
+	margin-right: 5px;
+}
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: #262b28;
+	border-color: #262b28;
+}
+
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: white;
+	border-color: #79d9ce;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #1cd4b5;
+	border-color: #1cd4b5;
+}
+
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #1dcfcf;
+	border-color: #1dcfcf;
+}
+
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #1ebe6e;
+	border-color: #1ebe6e;
+}
+
+.start {
+	background-color: green;
+	border-color: green;
+}
+
+.end {
+	background-color: red;
+	border-color: red;
+}
+
+#bigTableContainer {
+	margin-top: 30px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+#modalTitleContainer {
+	padding-top: 10px;
+}
+
+#results {
+	height: 87px;
+	width: 120px;
+	background-color: #ffc107;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+#resultsIcon {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+#duration, #length {
+	padding: 3px;
+}
+
+#infoModalBtn {
+	margin-left: 20px;
+}
+
+.fun-fact {
+	color: darkgreen;
+}
+
+.flex1 {
+	float: left;
+}
+.flex2 {
+	float:right;
+}
